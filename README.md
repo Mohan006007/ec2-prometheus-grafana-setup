@@ -5,21 +5,21 @@ This repository contains a complete setup for monitoring EC2 instances using **P
 ## Setup Overview
 
 - **Prometheus** collects and stores metrics from the EC2 instance running **Node Exporter**.
-- **Grafana** visualizes the metrics stored in Prometheus to monitor system performance.
+- **Grafana** visualizes the metrics from Prometheus to monitor system performance.
 
 ## Screenshots
 
 - **Prometheus Targets Health**:  
-  Prometheus displaying the status of its targets as up and running.  
-  ![Prometheus Targets Health](prometheus-targets.png)
+  Prometheus showing the status of its targets as up and running.  
+  ![Prometheus Targets Health](screenshots/prometheus-targets.png)
 
 - **Grafana Dashboard**:  
-  Grafana dashboard visualizing Prometheus metrics for system monitoring.  
-  ![Grafana Dashboard](grafana-dashboard.png)
+  Grafana dashboard visualizing Prometheus metrics for easy monitoring.  
+  ![Grafana Dashboard](screenshots/grafana-dashboard.png)
 
 - **Node Exporter Metrics**:  
   Node Exporter displaying system performance data.  
-  ![Node Exporter Metrics](node-exporter-metrics.png)
+  ![Node Exporter Metrics](screenshots/node-exporter-metrics.png)
 
 ## Files Included
 
@@ -29,6 +29,6 @@ This repository contains a complete setup for monitoring EC2 instances using **P
 
 ## Usage
 
-1. Install **Prometheus** and **Node Exporter** on your EC2 instance.
+1. Install **Prometheus** and **Node Exporter** on the EC2 instance.
 2. Configure **Prometheus** to scrape metrics from **Node Exporter**.
 3. Set up **Grafana** to visualize the metrics stored in Prometheus.
